@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{A3DB3FC4-4A3A-4DEB-AA73-7910D66996B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KCPUtils", "KCPUtils\KCPUtils.csproj", "{69BBBB36-EFDA-4764-8FAA-6BF74C357979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BBBB36-EFDA-4764-8FAA-6BF74C357979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BBBB36-EFDA-4764-8FAA-6BF74C357979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BBBB36-EFDA-4764-8FAA-6BF74C357979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BBBB36-EFDA-4764-8FAA-6BF74C357979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69BBBB36-EFDA-4764-8FAA-6BF74C357979} = {A3DB3FC4-4A3A-4DEB-AA73-7910D66996B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7AC782C-4949-4A66-A8B3-C4026605692D}
+	EndGlobalSection
+EndGlobal
