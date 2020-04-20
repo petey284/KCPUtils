@@ -24,6 +24,8 @@ namespace KCPUtils.CommandLine
         public bool IsPresent { get; set; }
         public Argument Next { get; set; }
 
+        public Switch(string name) { this.Name = name; }
+
         public Switch(string name, bool isPresent, Argument next=null)
         {
             this.Name = name;
@@ -63,7 +65,8 @@ namespace KCPUtils.CommandLine
                 if (result != null) { return result; }
             }
 
-            return default;
+            // Return empty switch with the first provided switch name
+            return new Switch(search[0]);
         }
 
         public static string SafeGrab(this string[] arguments, int index)
