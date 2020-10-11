@@ -10,4 +10,9 @@
     <None Remove="tools\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SimpleExec" Version="6.2.0" />
+    <PackageReference Include="System.IO.Abstractions.TestingHelpers" Version="12.2.2" />
+  </ItemGroup>
+
 </Project>
